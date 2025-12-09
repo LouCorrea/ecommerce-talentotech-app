@@ -94,13 +94,13 @@ Una aplicación de comercio electrónico completa desarrollada con React + Vite 
 - **Frontend Framework:** React 19
 - **Build Tool:** Vite
 - **Routing:** React Router Dom v7
-- **UI Framework:** React Bootstrap + Bootstrap 5
+- **UI Framework:** React Bootstrap
 - **State Management:** Context API
 - **HTTP Client:** Fetch API
 - **Notifications:** React Toastify
 - **Icons:** Bootstrap Icons
 - **Storage:** LocalStorage
-- **API:** FakeStore API + MockAPI
+- **API:** MockAPI
 
 ## 📋 Prerrequisitos
 
@@ -229,15 +229,12 @@ ecommerce-talentotech/
 
 ## 🌐 API Endpoints
 
-### FakeStore API
-- `GET /products` - Obtener todos los productos
-- `GET /products/:id` - Obtener producto por ID
-
 ### MockAPI
-- `GET /api/v1/products` - Obtener productos personalizados
-- `POST /api/v1/products` - Crear nuevo producto
-- `PUT /api/v1/products/:id` - Actualizar producto
-- `DELETE /api/v1/products/:id` - Eliminar producto
+- `GET /products` - Obtener productos personalizados
+- `GET /products/:id` - Obtener productos por id
+- `POST /products` - Crear nuevo producto
+- `PUT /products/:id` - Actualizar producto
+- `DELETE /products/:id` - Eliminar producto
 
 ## 🎨 Características de UX/UI
 
@@ -264,24 +261,11 @@ ecommerce-talentotech/
 - ✓ Dispositivos móviles iOS/Android
 - ✓ Tablets
 
-## 👥 Autor
-
-**TalentoTech Team**
-- GitHub: [@LouCorrea](https://github.com/LouCorrea)
-
 ## 📄 Licencia
 
 Este proyecto fue desarrollado como parte del programa TalentoTech.
 
-## 🙏 Agradecimientos
 
-- TalentoTech por la formación
-- FakeStore API por los datos de productos
-- MockAPI por la API de práctica
-- Comunidad de React por los recursos
 
----
-
-⭐ Si este proyecto te fue útil, no olvides darle una estrella en GitHub
 
 
